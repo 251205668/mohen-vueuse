@@ -2,4 +2,6 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from '@/router/index';
 
-createApp(App).use(router).mount('#app');
+import '@/plugins/elementPlus';
+import ElementPlus from 'element-plus';
+createApp(App).use(router).use(ElementPlus).mount('#app');
