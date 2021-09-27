@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import { defaultWindow } from '@/constants/types';
+import { defaultWindow } from '../constants/types';
 export interface BrowserLocationState {
   trigger: string; // 触发
   state?: any; // history.state

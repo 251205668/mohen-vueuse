@@ -1,4 +1,4 @@
-import { Fn, isClient, Pauseable } from '@/constants/types';
+import { Fn, isClient, Pauseable } from '../constants/types';
 import { ref } from 'vue';
 
 export interface IntervalFnOptions {
