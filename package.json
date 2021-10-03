@@ -1,6 +1,6 @@
 {
   "name": "mohen-vueuse",
-  "version": "1.0.1",
+  "version": "1.0.2-1",
   "description": "个人封装的vue3公共方法",
   "umd:main": "lib/index.umd.js",
   "source": "src/index.ts",

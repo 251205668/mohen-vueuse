@@ -7,3 +7,5 @@ export * from './Hooks/useGetRefValue';
 export * from './Hooks/useSetRefValue';
 export * from './Hooks/useThrottle';
 export * from './Hooks/useThrottleFn';
+export * from './Hooks/useAsync';
+export * from './Hooks/useCreateEventHook';
