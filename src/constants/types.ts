@@ -2,6 +2,7 @@ import { Ref } from 'vue';
 
 export type Fn = () => void;
 export type MaybeRef<T> = T | Ref<T>;
+export type FunctionArgs<Args extends any[] = any[],Return = void> = (...args: Args) => Return
 
 /** 可控制方法 */
 export interface Pauseable {
