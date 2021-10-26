@@ -9,3 +9,4 @@ export * from './Hooks/useThrottle';
 export * from './Hooks/useThrottleFn';
 export * from './Hooks/useAsync';
 export * from './Hooks/useCreateEventHook';
+export * from './Hooks/useAxios';
